@@ -5,7 +5,7 @@ import json
 class MakeRequests:
 	def __init__(self, token, credentials):
 		self.credentials = credentials
-		self.base_url = "https://openapi.xpi.com.br/openbanking"
+		self.base_url = ""
 		self.headers = {
 			"Content-type": "application/json",
 			"Authorization": f"Bearer {token}",
