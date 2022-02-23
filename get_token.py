@@ -5,7 +5,7 @@ import json
 class GetToken:
     def __init__(self, client_id, client_secret):
         self.access_token = None
-        self.url = 'https://openapi.xpi.com.br/oauth2/v1/access-token'
+        self.url = ''
         self.body = {
             'grant_type': 'client_credentials',
             'client_id': client_id,
